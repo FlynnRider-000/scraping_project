@@ -1,0 +1,9 @@
+version: '2'
+services:
+    apache2:
+        image: webdevops/apache:latest
+        volumes:
+            - './docs:/app'
+        ports:
+            - 12346:80
+            - 443:443

@@ -1,0 +1,32 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "typeRoots": ["src/custom-typings"],
+    "types": ["@types/jest", "@types/node"],
+    "allowJs": false,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "lib": ["es2017", "dom"],
+    "strict": true,
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "esModuleInterop": true,
+    "paths": {},
+    "noImplicitAny": true
+
+  },
+  "include": ["./src", "index.js", "index.js"],
+  "exclude": ["./dist"]
+}
